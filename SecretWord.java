@@ -33,7 +33,7 @@ public class SecretWord{
     }
     if(input.equals(word)){
       guesses = 0;
-      return "you won!";
+      return GREEN+"you won!";
     }
     for(int i = 0; i<this.word.length(); i++){
       char inputCharAt = input.charAt(i);
